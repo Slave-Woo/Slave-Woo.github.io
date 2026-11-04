@@ -1,1 +1,3 @@
-document.querySelectorAll("[data-year]").forEach(e=>e.textContent=new Date().getFullYear());
+document.querySelectorAll("[data-year]").forEach(element => {
+  element.textContent = new Date().getFullYear();
+});
