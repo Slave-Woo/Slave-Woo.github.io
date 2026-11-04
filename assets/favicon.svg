@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <title>우 — planet, rotation axis, and orbit</title>
-  <rect width="128" height="128" rx="27" fill="#17344d"/>
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="64" cy="43" r="20" stroke="#f5f2e9" stroke-width="6"/>
-    <path d="M76 13 52 73" stroke="#d6ae70" stroke-width="3.5"/>
-    <ellipse cx="64" cy="87" rx="43" ry="10" transform="rotate(-7 64 87)" stroke="#f5f2e9" stroke-width="5"/>
-    <path d="M64 88v24" stroke="#f5f2e9" stroke-width="6"/>
+  <title>우 — tilted planet with an orbit and rotation axis</title>
+  <defs>
+    <mask id="behind-planet"><rect width="128" height="128" fill="white"/><circle cx="64" cy="64" r="25" fill="black"/></mask>
+  </defs>
+  <g fill="none" stroke="#000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M43 20 51 36 M77 88 88 110"/>
+    <ellipse cx="64" cy="64" rx="64" ry="9" transform="rotate(-33 64 64)" mask="url(#behind-planet)"/>
+    <circle cx="64" cy="64" r="25"/>
+    <path d="M128 64 A64 9 0 0 1 0 64" transform="rotate(-33 64 64)"/>
   </g>
-  <circle cx="106" cy="82" r="5.5" fill="#d6ae70"/>
 </svg>
