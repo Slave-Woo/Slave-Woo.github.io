@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#28547c"/><path d="M32 9L38 26L55 32L38 38L32 55L26 38L9 32L26 26Z" fill="#f7fafc"/><circle cx="32" cy="32" r="6" fill="#a33a44"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <title>우 — planet, rotation axis, and orbit</title>
+  <rect width="128" height="128" rx="27" fill="#17344d"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="64" cy="43" r="20" stroke="#f5f2e9" stroke-width="6"/>
+    <path d="M76 13 52 73" stroke="#d6ae70" stroke-width="3.5"/>
+    <ellipse cx="64" cy="87" rx="43" ry="10" transform="rotate(-7 64 87)" stroke="#f5f2e9" stroke-width="5"/>
+    <path d="M64 88v24" stroke="#f5f2e9" stroke-width="6"/>
+  </g>
+  <circle cx="106" cy="82" r="5.5" fill="#d6ae70"/>
+</svg>
